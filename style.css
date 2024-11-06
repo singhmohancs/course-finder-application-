@@ -1,0 +1,107 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-color: #f3f3f3;
+}
+
+.app-wrapper{
+  padding: 20px 20px;
+}
+
+.container {
+  width: 350px;
+  padding: 20px 20px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+}
+
+.app-header {
+  background-color: #ddd;
+  padding: 20px 20px;
+  text-align: left;
+}
+
+.app-header h1 {
+  font-size: 16px;
+  margin: 0;
+  color: #555;
+}
+
+h2 {
+  font-size: 14px;
+  color: #333;
+  padding: 10px;
+  text-align: center;
+}
+
+.filter-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+}
+
+.filter-section label {
+  font-size: 14px;
+  color: #555;
+}
+
+.filter-section select,
+.filter-section button {
+  padding: 8px;
+  font-size: 14px;
+}
+
+.filter-section button {
+  background-color: #d9534f;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.results-section {
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.course-card {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.course-card h3 {
+  font-size: 14px;
+  color: #333;
+}
+
+.course-card p {
+  font-size: 12px;
+  color: #777;
+}
+
+.free-badge {
+  background-color: #d9534f;
+  color: white;
+  padding: 2px 4px;
+  font-size: 10px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+#back-button {
+  font-size: 14px;
+  color: #555;
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 10px;
+  text-align: left;
+  display: flex;
+  padding: 10px;
+}

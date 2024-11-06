@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free Professional Course Finder</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <header class="app-header">
+      <h1>Home</h1>
+    </header>
+    <main class="app-wrapper">
+      <div class="container">
+        <!-- Back button (hidden initially) -->
+        <button id="back-button" onclick="showFilterSection()" style="display: none;">&larr; Back</button>
+
+        <h2>Find Best & Free Courses on many job-oriented topics by industry experts</h2>
+
+        <!-- Filter section -->
+        <div id="filter-section" class="filter-section">
+          <label for="topic">Select Topic*</label>
+          <select id="topic">
+            <option value="Business">Business</option>
+            <option value="Technology">Technology</option>
+            <option value="Marketing">Marketing</option>
+          </select>
+
+          <label for="filter">Filter by</label>
+          <select id="filter">
+            <option value="Free">Free</option>
+            <option value="Paid">Paid</option>
+          </select>
+
+          <button onclick="findCourses()">Find Courses</button>
+        </div>
+
+        <!-- Results section -->
+        <div id="results" class="results-section">
+          <!-- Default courses will be shown here -->
+        </div>
+      </div>
+
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+
+</html>
