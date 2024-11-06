@@ -33,7 +33,7 @@ This project serves as a foundation for understanding how web applications funct
 ├── index.html        # Main HTML file
 ├── style.css         # CSS file for styling
 ├── script.js         # JavaScript file for functionality
-└── data.json         # JSON file containing course data
+└── /data/course.json.json  # JSON file containing course data
 ```
 
 ## Getting Started
